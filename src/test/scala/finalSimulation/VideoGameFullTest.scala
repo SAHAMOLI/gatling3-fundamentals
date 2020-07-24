@@ -111,7 +111,7 @@ class VideoGameFullTest extends Simulation {
 //       .assertions(
 //           global.responseTime.max.lt(2),
 //           global.successfulRequests.percent.gt(99)
-        )
+   //     )
       )
 
   /*** After ***/
