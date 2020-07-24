@@ -100,6 +100,7 @@ class VideoGameFullTest extends Simulation {
         .exec(deleteLastPostedGame())
     }
 
+  
   /*** Setup Load Simulation ***/
   setUp(
     scn.inject(
@@ -108,11 +109,6 @@ class VideoGameFullTest extends Simulation {
   )
     .protocols(httpConf)
     .maxDuration(testDuration seconds)
-//       .assertions(
-//           global.responseTime.max.lt(2),
-//           global.successfulRequests.percent.gt(99)
-   //     )
-      )
 
   /*** After ***/
   after {
@@ -120,3 +116,4 @@ class VideoGameFullTest extends Simulation {
   }
 
 }
+
